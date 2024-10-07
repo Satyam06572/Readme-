@@ -1,32 +1,30 @@
 #include<iostream>
 using namespace std;
 
+// printing 20 to 30 using ***(for)*** loop
 
-       // ----------->> union <<-----------
-
-    union money
-    {
-        int rice;
-        char car;
-        float pound;
-    };
 int main ()
 {
-    
-     union money m1;
-    //   m1.rice=34;
-    // //  m1.pounde=10;
-    //      m1.car = 'c'; 
-    //  cout<<m1.car;
-     
-         
+    for(int i=20; i<=30; i++)
+    {
+        cout<<i<<endl;
+    }
+   
+// printing 2 to 45 using   ***(While)***  loop
 
-          // ----------->> enum <<-----------
 
-         
-        enum meal {Breakfast,Lunch,Dinner};
-        cout<<Breakfast<<endl;
-        cout<<Lunch<<endl;
-        cout<<Dinner<<endl;
-        return 0;
-     }
+ int i=2;
+ while(i<=45){
+ cout<<i<<endl;
+  i++;
+ }
+
+
+// printing 2 to 45 using ***(Do While)***  loop
+ do{
+    cout<<i<<endl;
+    i++;
+ }
+ while(i<=45);
+ return 0;
+}
