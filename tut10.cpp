@@ -20,7 +20,7 @@ int main()
      shivam.eId=1;
      shivam.salary=1000000;
      shivam.favchar= 'A';
-     cout<<"the eId of shivam.eId is : "<<shivam.eId<<endl;
+     cout<<"the Id of shivam is : "<<shivam.eId<<endl;
      cout<<"the favchar of shivam is :"<<shivam.favchar<<endl;
      cout<<"the salary of shivam is :"<<shivam.salary<<endl;
 
